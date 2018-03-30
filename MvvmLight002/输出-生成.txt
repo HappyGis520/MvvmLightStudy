@@ -1,0 +1,6 @@
+﻿正在还原 NuGet 程序包...
+若要阻止 NuGet 在生成期间还原程序包，请打开 Visual Studio 的“选项”对话框，单击“程序包管理器”节点，然后取消选中“允许 NuGet 在生成期间下载缺少的程序包”。
+1>------ 已启动全部重新生成: 项目: MvvmLight002, 配置: Debug ARM ------
+1>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(4823,5): warning MSB3061: 无法删除文件“E:\MvvmLightStudy\MvvmLight002\obj\ARM\Debug\XamlSaveStateFile.xml”。文件“E:\MvvmLightStudy\MvvmLight002\obj\ARM\Debug\XamlSaveStateFile.xml”正由另一进程使用，因此该进程无法访问此文件。
+1>  MvvmLight002 -> E:\MvvmLightStudy\MvvmLight002\bin\ARM\Debug\MvvmLight002.exe
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========

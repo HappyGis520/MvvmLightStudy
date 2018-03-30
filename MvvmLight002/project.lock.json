@@ -23678,10 +23678,7 @@
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-      "MvvmLight": {
-        "target": "Package",
-        "version": "[5.4.1, )"
-      }
+      "MvvmLight": "5.4.1"
     },
     "frameworks": {
       "uap10.0": {}

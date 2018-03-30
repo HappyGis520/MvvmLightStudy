@@ -1,0 +1,1 @@
+E:\MvvmLightStudy\MvvmLight002\MvvmLight002.csproj;arm

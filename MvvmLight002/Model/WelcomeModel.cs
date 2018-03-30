@@ -5,35 +5,26 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.Media.Streaming.Adaptive;
+using Windows.UI.Xaml.Data;
 using GalaSoft.MvvmLight;
 
 namespace MvvmLight002.Model
 {
-     public  class WelcomeModel:ObservableObject
+    [Bindable]
+    public  class WelcomeModel:ObservableObject
      {
-        private string introduction;
+        private string _introduction;
 
         public string Introduction
         {
-            get => introduction;
+            get => _introduction;
             set
             {
-                introduction = value; 
+                _introduction = value; 
                 RaisePropertyChanged(() => Introduction);
             }
         }
         
      }
 
-    public class  wjj
-    {
-         public String abc;
-
-        public string Getname( [CallerMemberName]string abc="")
-        {
-            return abc+abc;
-
-        }
-
-    }
 }
