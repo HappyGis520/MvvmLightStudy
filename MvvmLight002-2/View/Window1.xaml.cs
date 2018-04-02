@@ -23,7 +23,7 @@ namespace MvvmLight002_2.View
         public Window1()
         {
             InitializeComponent();
-            this.DataContext =new WelcomeViewModel();
+            //this.DataContext =new WelcomeViewModel();
         }
     }
 }

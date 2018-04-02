@@ -30,18 +30,9 @@ namespace MvvmLight002_2.ViewModel
         {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 
-            ////if (ViewModelBase.IsInDesignModeStatic)
-            ////{
-            ////    // Create design time view services and models
-            ////    SimpleIoc.Default.Register<IDataService, DesignDataService>();
-            ////}
-            ////else
-            ////{
-            ////    // Create run time view services and models
-            ////    SimpleIoc.Default.Register<IDataService, DataService>();
-            ////}
 
             SimpleIoc.Default.Register<MainViewModel>();
+            SimpleIoc.Default.Register<WelcomeViewModel>();
         }
 
         public MainViewModel Main
@@ -50,6 +41,11 @@ namespace MvvmLight002_2.ViewModel
             {
                 return ServiceLocator.Current.GetInstance<MainViewModel>();
             }
+        }
+
+        public WelcomeViewModel Welcome
+        {
+            get { return ServiceLocator.Current.GetInstance<WelcomeViewModel>(); }
         }
         
         public static void Cleanup()
